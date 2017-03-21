@@ -27,6 +27,16 @@ p{
 	color: green;
 }
 
+#maman:hover{
+	color: red;
+}
+
+h1{
+	border: 3px green double; /* ajouter une bordure */
+	border-radius: 15px;
+	text-shadow: 2px 2px 2px rgb(100,100,100);
+}
+
 h2 + p{ /* pour cible tout les p qui suivent directement un h2 */
 	color: yellow;
 }
@@ -51,6 +61,8 @@ ul strong{ /* pour cibler uniquement les strong dans les ul */
 .flottant{
 	float: left;
 	opacity: 1;
+	border-bottom: 5px purple solid;
+	box-shadow: 4px 4px 4px purple; /* ajouter une ombre */
 }
 
 p .flottant{
@@ -59,6 +71,18 @@ p .flottant{
 
 h2{
 	clear: both;
+}
+
+a:active{
+	color: red;
+}
+
+a:focus{
+	color: purple;
+}
+
+a:visited{
+	color: blue;
 }
 
 body{
