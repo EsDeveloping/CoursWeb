@@ -12,11 +12,13 @@
 
 
 p{
-	color: blue; /* Ces trois methode donne la meme chose */
-	color: #0000ff;
+	/*color: blue; /* Ces trois methode donne la meme chose */
+	/*color: #0000ff;
 	color: rgb(0,0,255);
 
-	background-color: rgb(200,200,200);
+	background-color: rgb(200,200,200);*/
+
+	/*background: url("backgroundImage.jpeg") fixed no-repeat top-left;*/
 }
 
 .repos{ /* fait appel à une class */
@@ -31,7 +33,7 @@ p{
 	color: red;
 }
 
-h1{
+h1, h2{
 	border: 3px green double; /* ajouter une bordure */
 	border-radius: 15px;
 	text-shadow: 2px 2px 2px rgb(100,100,100);
