@@ -1,0 +1,51 @@
+html{
+	background-color: #f9f2ca;
+}
+
+#page{
+	background-color: #f9f2ca;
+	width: 950px;
+	margin: auto; 
+}
+
+#top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo{
+	width: 150px;
+}
+
+#logo img{
+	float: left;
+}
+
+#logo h1{
+	padding-top: 1em;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+#logo p{
+	margin-top: 0;
+	clear: left;
+	background-color: red;
+	text-align: right;
+}
+
+nav{
+}
+
+nav ul{
+	display: flex;
+}
+
+nav li{
+	text-align: center;
+	list-style-type: none;
+	margin: 0.3em;
+	height: 25px;
+	font-size: 1.5em;	
+}
