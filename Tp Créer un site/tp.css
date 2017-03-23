@@ -78,3 +78,14 @@ nav li{
 	height: 25px;
 	font-size: 1.5em;	
 }
+
+#separationHaut{
+	background: url="images/separateur.png" repeat top left;
+	height: 4px;
+
+}
+
+#imagePrincipal{
+	margin-top: 3em;
+	border-radius: 3px;
+}
