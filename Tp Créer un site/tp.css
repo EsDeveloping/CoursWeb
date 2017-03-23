@@ -1,5 +1,31 @@
+@font-face {
+    font-family: 'amadeus_regularamadeusRg';
+    src: url('policesAmadeus-webfont.eot');
+    src: url('polices/Amadeus-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/Amadeus-webfont.woff') format('woff'),
+         url('polices/Amadeus-webfont.ttf') format('truetype'),
+         url('polices/Amadeus-webfont.svg#amadeus_regularamadeusRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntu-titletitle';
+    src: url('polices/Rubik-Regular.ttf');
+    src: url('polices/Rubik-Regular.ttf?#iefix') format('embedded-opentype'),
+         url('polices/Rubik-Regular.ttf') format('ttf'),
+         url('polices/Rubik-Regular.ttf') format('truetype'),
+         url('polices/Rubik-Regular.ttf#ubuntu-titletitle') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 html{
 	background-color: #f9f2ca;
+	font-family: 'ubuntu-titletitle',Impact,arial;
 }
 
 #page{
@@ -20,18 +46,21 @@ html{
 
 #logo img{
 	float: left;
+	margin-bottom: 0;
 }
 
 #logo h1{
+	font-family: 'amadeus_regularamadeusRg', Impact, arial;
 	padding-top: 1em;
 	text-align: left;
 	margin-bottom: 0;
+	padding-bottom: 0;
+	text-align: right;
 }
 
 #logo p{
 	margin-top: 0;
 	clear: left;
-	background-color: red;
 	text-align: right;
 }
 
