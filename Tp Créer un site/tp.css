@@ -24,12 +24,11 @@
 
 
 html{
-	background-color: #f9f2ca;
+	background-color: #fcf6d6;
 	font-family: 'ubuntu-titletitle',Impact,arial;
 }
 
 #page{
-	background-color: #f9f2ca;
 	width: 950px;
 	margin: auto; 
 }
@@ -37,7 +36,7 @@ html{
 #top{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: baseline;
 }
 
 #logo{
@@ -79,13 +78,160 @@ nav li{
 	font-size: 1.5em;	
 }
 
+nav li:hover{
+	color: #9b2f23;
+	border-bottom: 3px solid #9b2f23;
+}
+
 #separationHaut{
-	background: url="images/separateur.png" repeat top left;
+	background: url(images/separateur.png) repeat top left;
 	height: 4px;
 
+}
+
+#separationBas{
+	position: relative;
+
+}
+
+#bordureBas1{
+	height: 4px;
+	background: url(images/separateur.png) repeat top left;	
+}
+
+#bordureBas2{
+	height: 13px;
+	background-color: black;
+	background: url(images/ombre.png) repeat top left;	
+}
+
+#separationBas #flecheBas{
+	position: absolute;
+	top: 0;
+	left: 50%;
 }
 
 #imagePrincipal{
 	margin-top: 3em;
 	border-radius: 3px;
+}
+
+section{
+	background-color: #f7ecb4;
+}
+
+#blocImagePrincipal{
+	margin-top: 15px;
+	height: 200px;
+	background: url(images/sanfrancisco.jpg) no-repeat;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px #999;
+	margin-bottom: 50px;
+}
+
+#bandeImagePrincipal{
+	background-color: rgba(40,40,40,0.8);
+	width: 99.9%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	border-radius: 5px;
+}
+
+#bandeImagePrincipal a{
+	color: white;
+	text-decoration-line: none;
+}
+
+#bandeImagePrincipal p{
+	color: white;
+	margin-left: 7px;
+}
+
+#boutton{
+	margin-right: 7px;
+	border-radius: 5px;
+	padding: 0 4px 0 2px;
+	width: 110px;
+	height: 75%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: url(images/fond_degraderouge.png) repeat-x;
+}
+
+#boutton a:hover{
+	color: red;
+}
+
+#texteCentral{
+	flex: 3;
+}
+
+#titreTexteCentral{
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	height: 40px;
+}
+
+#titreTexteCentral h2{
+	/*height: 50%;*/
+	padding-left: 20px;
+}
+
+article{
+	display: flex;
+	padding: 10px;
+}
+
+aside{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding: 10px 10px 10px 10px;
+	background-color: #CCC;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+aside #bulle{
+	position: absolute;
+	top:120px;
+	left: -12px;
+}
+
+footer{
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#amis ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#amis li{
+	width: 120px;
+}
+
+#tweet{
+	flex: 1;
+}
+
+#mesPhotos{
+	flex: 1;
+}
+#amis{
+	flex: 1;
 }
