@@ -24,7 +24,7 @@
 
 
 html{
-	background-color: #fcf6d6;
+	background-color: #FDF5D8;
 	font-family: 'ubuntu-titletitle',Impact,arial;
 }
 
@@ -85,6 +85,7 @@ nav li{
 	margin: 0.3em;
 	height: 25px;
 	font-size: 1.5em;	
+	border-bottom: 3px solid #fcf6d6;
 }
 
 nav li:hover{
@@ -126,7 +127,7 @@ nav li:hover{
 }
 
 section{
-	background-color: #f7ecb4;
+	background-color: #F4E9CB;
 }
 
 #blocImagePrincipal{
@@ -246,4 +247,8 @@ footer{
 }
 #amis{
 	flex: 1
+}
+
+#mesPhotos img{
+	border: 1px solid black;
 }
