@@ -39,8 +39,17 @@ html{
 	align-items: baseline;
 }
 
+
+#logoEtTitre{
+	display: flex;
+	align-items: baseline;
+	height: 85px;
+	padding: 0;
+}
+
 #logo{
-	width: 150px;
+	display: flex;
+	flex-direction: column;
 }
 
 #logo img{
@@ -127,7 +136,7 @@ section{
 	position: relative;
 	border-radius: 5px;
 	box-shadow: 0px 5px 5px #999;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 #bandeImagePrincipal{
@@ -196,11 +205,12 @@ aside{
 	flex-direction: column;
 	flex: 1;
 	padding: 10px 10px 10px 10px;
-	background-color: #CCC;
+	background-color: #666;
 	border-radius: 10px;
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	color: white;
 }
 
 aside #bulle{
@@ -223,6 +233,8 @@ footer{
 
 #amis li{
 	width: 120px;
+	color: #9b3328;
+	list-style-image: url(images/ico_liensexterne.png);
 }
 
 #tweet{
@@ -233,5 +245,5 @@ footer{
 	flex: 1;
 }
 #amis{
-	flex: 1;
+	flex: 1
 }
