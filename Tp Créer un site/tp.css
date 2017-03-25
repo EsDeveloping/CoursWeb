@@ -24,13 +24,15 @@
 
 
 html{
-	background-color: #FDF5D8;
+	background: url(images/fond.png) repeat top left;
 	font-family: 'ubuntu-titletitle',Impact,arial;
 }
 
-#page{
+
+
+#top, #blocImagePrincipal, article, footer{
 	width: 950px;
-	margin: auto; 
+	margin: auto;
 }
 
 #top{
@@ -96,7 +98,6 @@ nav li:hover{
 #separationHaut{
 	background: url(images/separateur.png) repeat top left;
 	height: 4px;
-
 }
 
 #separationBas{
@@ -127,7 +128,7 @@ nav li:hover{
 }
 
 section{
-	background-color: #F4E9CB;
+	background-color: #dbcf8a;
 }
 
 #blocImagePrincipal{
