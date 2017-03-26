@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="formulaire.css">
+	<meta http-equiv="refresh" content="5">
+</head>
+<body>
+	<form method="post" action="maPagePHP.php"> <!-- get ou post -->
+		<p>
+			<label for="pseudo">Votre nom</label>
+			<input type="text" name="nom" id="nom" maxlength="5" value="Kiki">
+		</p>
+		<p>
+			<label for="prenom">Votre prenom</label>
+			<input type="text" name="prenom" id="prenom" maxlength="10" placeholder="MonPrenom" required>
+		</p>
+
+		<fieldset>
+			<legend>Les champs</legend>
+			<p>
+				<input type="password" name="pass" placeholder="MonMotDePass">
+				<br>
+				<textarea rows="5" cols="50">Taille modifiable grace a Width et Height en CSS egalement</textarea>
+
+				<input type="email" name="mail" placeholder="Email">
+				<br>
+				<input type="url" name="url" placeholder="url">
+				<br>
+				
+				<input type="number" name="nombre" placeholder="55" min="5" max="100" step="5">
+
+				<br>
+				<input type="range" name="range" placeholder="55" min="5" max="100" step="5">
+				<br>
+
+				<input type="color" name="color">	
+				<br>
+				<input type="date" name="date" autofocus>
+				<br>
+					<input type="radio" name="val" value="Homme" selected>
+					<label for="val">Homme</label>
+					<br>
+					<input type="radio" name="val" value="Femme">
+					<label for="val">femme</label>
+				<br>
+				<input type="submit" name="ok">
+				<input type="reset" name="reset">
+			</p>
+		</fieldset>
+
+		<h1>Voir la W3C pour la liste des input</h1>
+		<p>
+			
+		</p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</form>
+</body>
+</html>

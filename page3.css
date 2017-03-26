@@ -16,3 +16,7 @@ td{
 table{
 	border-collapse: collapse;
 }
+
+tfoot{
+	background-color: yellow;
+}
