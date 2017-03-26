@@ -22,10 +22,18 @@
 
 }
 
+@font-face {
+    font-family: 'latolight';
+    src: url('polices/lato-light-webfont.woff2') format('woff2'),
+         url('polices/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 html{
 	background: url(images/fond.png) repeat top left;
-	font-family: 'ubuntu-titletitle',Impact,arial;
+	font-family: 'latolight',Impact,arial;
 }
 
 
@@ -72,6 +80,7 @@ html{
 	margin-top: 0;
 	clear: left;
 	text-align: right;
+	font-style: italic;
 }
 
 nav{
@@ -213,6 +222,11 @@ aside{
 	align-items: center;
 	position: relative;
 	color: white;
+	
+}
+
+aside p{
+	width: 100%
 }
 
 aside #bulle{
